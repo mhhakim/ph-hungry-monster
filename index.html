@@ -41,31 +41,33 @@
             </div>
         </nav>
     </header>
-    <section class="container mt-5 d-flex justify-content-center" id="meal-details-area">
+
+    <section class="container mt-5 d-flex justify-content-center">
         <div id="meal-details">
             <img id="meal-details-img" src="">
             <h3 id="meal-details-title"></h3>
             <h5>Ingredients</h5>
-          </div>
+        </div>
         </div>
     </section>
+
     <section class="container" id="meal-search-area">
         <div class="d-flex justify-content-center">
             <div>
-              <input id="form-search" type="text" class="form-control" placeholder="Search for Meal..">
+                <input id="form-search" type="text" class="form-control" placeholder="Search for Meal..">
             </div>
             <div>
-              <input type="submit" onclick="searchMeal()" class="btn-search" value="Search">
+                <input type="submit" onclick="searchMeal()" class="btn-search" value="Search">
             </div>
         </div>
     </section>
 
     <section class="container mt-5" id="meal-display-area">
-        <div class="row row-cols-2 row-cols-md-3 g-3" id="meal-list">
-        </div>
+        <div class="row row-cols-2 row-cols-md-3 g-3" id="meal-list"></div>
     </section>
 
     <footer class="container mt-5">
+        <p class="text-center"> 2021 Hungry Monster</p>
     </footer>
 
     <script src="./script.js"></script>

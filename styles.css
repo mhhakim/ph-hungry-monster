@@ -4,7 +4,7 @@
 }
 
 .navbar-brand {
-    color: goldenrod !important;
+    color: #f06c4e !important;
     font-weight: 700;
 }
 
@@ -39,27 +39,34 @@
 .card-title {
     font-weight: 600;
 }
-#meal-details h3, h5 {
+
+#meal-details h3,
+h5 {
     color: #252525;
 }
+
 #meal-details h3 {
     font-size: 36px;
     font-weight: 700;
     margin: 22px 0;
 }
+
 #meal-details h5 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 18px;
 }
+
 #meal-details-img {
     width: 600px;
-    height: 300px;
+    height: 325px;
     border-radius: 10px;
 }
+
 #meal-details p {
     color: #6C6C6C;
 }
+
 #meal-details {
     display: none;
 }
